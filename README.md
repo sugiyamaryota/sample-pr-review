@@ -1,1 +1,2 @@
-this is samples
+# Read me
+これはテストです
