@@ -1,10 +1,6 @@
-export const odd =() => {
-    const numbers = [1,2,3]
-    let oddNumbers: number[] =[];
-    for (let i = 0; i < numbers.length; i++) {
-        if (numbers[i] % 2 !== 0) {
-            oddNumbers.push(numbers[i]);
-        }
-    }
-    return oddNumbers;
-}
+/**
+ * 配列から奇数のみを抽出して返します
+ * @param numbers 処理対象の数値配列
+ * @returns 奇数のみを含む配列
+*/
+export const odd = (numbers: number[]): number[] => numbers.filter(num => num % 2 !== 0);
