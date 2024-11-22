@@ -1,5 +1,18 @@
 {
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "20.15.0"
+  },
+  "scripts": {
+    "test": "node --test --import tsx './src/utils/sample.test.ts'"
+  },
   "dependencies": {
     "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
   }
 }
