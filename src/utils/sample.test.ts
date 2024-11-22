@@ -19,7 +19,7 @@ describe("odd", () => {
 describe("even", () => {
     test("偶数の配列を返すことを確認", async () => {
         const result = even([2,4,6]);
-        const expectedOddNumbers = result.slice(0, 3);  // 最初の3つの要素を検証
-        assert.deepStrictEqual(expectedOddNumbers, [2, 4, 6]);
+        const expectedEvenNumbers = result.slice(0, 3);  // 最初の3つの要素を検証
+        assert.deepStrictEqual(expectedEvenNumbers, [2, 4, 6]);
     })
 })
