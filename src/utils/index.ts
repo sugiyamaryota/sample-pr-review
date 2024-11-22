@@ -1,2 +1,10 @@
-const numbers = [1,2,3]
-let oddNumbers: number[] = numbers.filter(num => num % 2 !== 0);
+export const odd =() => {
+    const numbers = [1,2,3]
+    let oddNumbers: number[] =[];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 !== 0) {
+            oddNumbers.push(numbers[i]);
+        }
+    }
+    return oddNumbers;
+}
