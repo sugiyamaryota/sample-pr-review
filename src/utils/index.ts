@@ -4,3 +4,5 @@
  * @returns 奇数のみを含む配列
 */
 export const odd = (numbers: number[]): number[] => numbers.filter(num => num % 2 !== 0);
+
+export const even = (numbers: number[]): number[] => numbers.filter(num => num % 2 === 0);
