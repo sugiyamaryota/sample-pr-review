@@ -1,7 +1,7 @@
 import {describe, test} from 'node:test';
 import {strict as assert} from 'node:assert';
 
-import { odd, even, twice } from '.';
+import { odd, even, hogehoge } from '.';
 
 describe("odd", () => {
     test("奇数の配列を返すことを確認", async () => {
@@ -24,9 +24,9 @@ describe("even", () => {
     })
 })
 
-describe("twice", () => {
+describe("hogehoge", () => {
     test("もとの数字の２倍であることを確認", async () => {
-        const result = twice(2);
+        const result = hogehoge(2);
         assert.deepStrictEqual(result, 4);
     })
 })
