@@ -9,5 +9,6 @@ export const even = (numbers: number[]): number[] => numbers.filter(num => num %
 
 export const twice = (number: number): number => {
     if(isNaN(number)) return number
-    return number *2
+    if(isNaN(number)) return number
+return number *2
 };
