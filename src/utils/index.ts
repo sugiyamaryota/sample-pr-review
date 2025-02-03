@@ -6,3 +6,8 @@
 export const odd = (numbers: number[]): number[] => numbers.filter(num => num % 2 !== 0);
 
 export const even = (numbers: number[]): number[] => numbers.filter(num => num % 2 === 0);
+
+export const twice = (number: number): number => {
+    if(isNaN(number)) return number
+    return number *2
+};
